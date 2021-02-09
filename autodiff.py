@@ -397,7 +397,7 @@ def find_topo_sort(node_list):
 
 
 def topo_sort_dfs(node, visited, topo_order):
-    """Post-order DFS"""
+    """Post-order DFS """
     if node in visited:
         return
     visited.add(node)
